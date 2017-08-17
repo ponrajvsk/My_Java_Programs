@@ -1,0 +1,110 @@
+package ponraj.aug;
+
+public class Abcd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	//FIRST LINE
+  int n=0;
+	for(int i=0;i<4;i++){	
+	char a=(char) ('A'+n);
+	System.out.print(a);
+	n=n+8;
+	for(int j=0;j<7;j++)
+	{
+		System.out.print(" ");
+		
+	}
+	}
+	System.out.println(" ");
+	
+	//SECOND LINE
+	int m=6,v=0;
+	for(int i=0;i<4;i++)
+	{
+	System.out.print(" ");
+	char a=(char) ('B'+v);
+	
+	System.out.print(a);
+	for(int j=0;j<5;j++)
+	{
+		System.out.print(" ");
+	}
+		char b=(char) ('B'+m);
+		System.out.print(b);
+	
+		m=m+8;
+		v=v+8;
+	}
+		System.out.println("");
+		
+		//THIRD LINE
+    int q=4;
+    for(int i=0;i<2;i++)
+		{
+			System.out.print(" ");
+		}
+		System.out.print("C");
+		for(int i=0;i<5;i++)
+		{
+		for(int j=0;j<3;j++)
+		{
+			System.out.print(" ");
+		}
+		char c=(char) ('C'+q);
+		System.out.print(c);
+		q=q+4;
+		}
+		System.out.println("");
+		
+      //FOURTH LINE
+		for(int i=0;i<3;i++)
+			
+		{
+			System.out.print(" ");
+		}
+      int w=2,e=8;
+      System.out.print("D");
+      for(int j=0;j<3;j++)
+      {
+			System.out.print(" ");
+			char d=(char) ('D'+w);
+			System.out.print(d);
+			if(j==2){
+				break;
+			}
+			for(int i=0;i<5;i++)
+			{
+				System.out.print(" ");
+			}
+			char r=(char) ('D'+e);
+			System.out.print(r);
+			w=w+8;
+			e=e+8;
+	  }
+    System.out.println(""); 
+      
+      //FIFTH LINE
+      int j=8;
+      for(int i=0;i<4;i++)
+		{
+			System.out.print(" ");
+		}
+		System.out.print("E");
+		for(int k=0;k<2;k++)
+		{
+		for(int i=0;i<7;i++)
+		{
+			System.out.print(" ");
+		}
+		char x=(char) ('E'+j);
+		System.out.print(x);
+		j=j+8;
+	}
+	}
+	}
+	
+	
+	
+
+
