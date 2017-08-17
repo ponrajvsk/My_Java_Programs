@@ -1,0 +1,52 @@
+package ponraj.aug;
+
+public class Wpattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//1stline
+		System.out.print("*");
+		 for(int i=0;i<9;i++)
+		 {
+			 System.out.print(" ");
+		 }
+		 System.out.print("*");
+		 System.out.println();
+		
+		//2nd line
+		 System.out.print(" ");
+		 System.out.print("*"); 
+		 for(int i=0;i<2;i++){
+		 for(int j=0;j<3;j++)
+		 {
+			 System.out.print(" ");
+		 }
+		  System.out.print("*");
+	}
+		 System.out.println();
+		 
+		//3rd line
+		 for(int i=0;i<2;i++)
+		 {
+			 System.out.print(" ");
+		 } 	 
+		 for(int i=0;i<4;i++)
+		 {
+			 System.out.print("*");
+			 System.out.print(" ");
+		 }
+		 System.out.println();		 
+		 
+		 
+		 //4th line
+		 for(int i=0;i<2;i++)
+		 {
+			 for(int j=0;j<3;j++)
+			 {
+				 System.out.print(" ");
+			 }
+			 System.out.print("*");
+		 }
+	}
+}
