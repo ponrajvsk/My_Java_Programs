@@ -1,0 +1,57 @@
+package ponraj.aug;
+
+public class Xpattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int n=1;
+		System.out.print("*");
+		 for(int i=0;i<5;i++)
+		 {
+			 System.out.print(" ");
+			
+		 }
+		 System.out.println("*");
+		 System.out.print(" ");
+		 System.out.print("*");
+		 for(int i=0;i<3;i++)
+		 {
+			 System.out.print(" ");
+			
+		 }
+		 System.out.println("*");
+		 for(int i=0;i<2;i++)
+		 {
+			 System.out.print(" ");
+			
+		 }
+		 System.out.print("*");
+		 System.out.print(" ");
+		 System.out.println("*");
+		 for(int j=0;j<3;j++)
+		 {
+			 System.out.print(" ");
+		 }		
+		 System.out.println("*");
+				 for(int i=0;i<3;i++)
+		 {
+			 int k=0;
+		 for(int j=0;j<2-i;j++)
+		 {
+			 System.out.print(" ");
+		 }		
+		 System.out.print("*");
+		 	 
+		 while(k<n)
+		 {
+			 System.out.print(" ");
+			 k++;
+		 }		
+		 n=n+2;
+		 System.out.println("*");
+		 
+		 
+		 }
+	}
+
+}
