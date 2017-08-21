@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Nestforx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Enter the no rows");
+		Scanner obj= new Scanner(System.in);
+		int in =obj.nextInt();
+		for(int row=0;row<in;row++)  //for the no of rows
+		{
+			for(int col=0;col<in;col++) //for the no of columns
+			{
+				if(row==col){
+					System.out.print("*");
+					
+				}
+				else if(row+col==in-1){
+					System.out.print("*");
+				}
+				else
+					System.out.print(" ");
+			}
+			System.out.println();
+		}
+	}
+}
