@@ -1,0 +1,53 @@
+package ponraj.aug;
+
+public class Abcdnestfor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+for(int row=0;row<5;row++)  //for the no of rows
+{
+for(int col=0;col<26;col++)  ////for the no of columns
+{
+if(row==col){
+	char a=(char) ('A'+col);
+	System.out.print(a);
+}	
+else if(row+col==8)
+{
+	char i=(char) ('A'+col);
+	System.out.print(i);
+}
+else if(row+col==16)
+{
+	char i=(char) ('A'+col);
+	System.out.print(i);	
+}
+else if(row+col==24)
+{
+	char i=(char) ('A'+col);
+	System.out.print(i);	
+}
+else if(col-row == 8 )
+{
+	char i=(char) ('A'+col);
+	System.out.print(i);	
+}
+else if(col-row==16)
+{
+	char i=(char) ('A'+col);
+	System.out.print(i);	
+	
+}
+else if(col-row==24)
+{
+	System.out.print("Z");	
+}
+else
+{
+	System.out.print(" ");	
+}
+}	
+System.out.println();
+}
+}
+}
